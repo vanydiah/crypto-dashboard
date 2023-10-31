@@ -50,27 +50,23 @@ const DashboardScreen = () => (
         <Box>
           <div className='box-title box-vertical-padding box-horizontal-padding no-select'>
             <div className='flex flex-center flex-space-between'>
-              <p>Önemli</p>
+              <p>Important</p>
             </div>
           </div>
           <div className='box-content box-text box-horizontal-padding box-content-height-nobutton'>
             <p>
-              &bull; Adınıza açılmış (bireysel, vadesiz, TL) tüm banka hesaplarınıza çekim
-              yapabilirsiniz. Farklı bir kişiye transfer işleminiz gerçekleşmeyecektir.
+              &bull; You can make withdrawals to all bank accounts opened in your name (individual, current, TL). Your transfer to a different person will not occur.
             </p>
-            <p>&bull; Minimum çekim tutarı 10 TL&apos;dir.</p>
-            <p>&bull; Çekim işlemi sırasında 3 TL işlem ücreti tahsil edilir.</p>
+            <p>&bull; Minimum withdrawal amount is $10.</p>
+            <p>&bull; A $3 transaction fee is charged during the withdrawal process..</p>
             <p>
-              &bull; Bir çekim talimatı verdiğinizde bu tutar kullanılabilir bakiyenizden
-              düşecektir.
+              &bull; When you place a withdrawal order, this amount will be deducted from your available balance.
             </p>
             <p>
-              &bull; Henüz gerçekleşmemiş talimatlarınızı iptal edebilirsiniz. Bu durumda talimat
-              tutarı tekrar kullanılabilir bakiyenize aktarılır.
+              &bull; You can cancel your orders that have not been realized yet. In this case, the order amount is transferred back to your available balance.
             </p>
             <p>
-              &bull; Bankaların mesai saatleri dışında verilen çekim talimatları, bankaların mesaiye
-              başlaması ile birlikte işleme alınır.
+              &bull; Withdrawal orders given outside of banks' working hours are processed as soon as the banks start working.
             </p>
           </div>
         </Box>
